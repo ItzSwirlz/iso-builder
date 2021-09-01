@@ -15,6 +15,7 @@ fi
 lb config noauto \
     --architectures "$ARCH" \
     --mode ubuntu \
+    --verbose \
     --initramfs none \
     --distribution "$BASECODENAME" \
     --parent-distribution "$BASECODENAME" \
