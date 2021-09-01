@@ -44,6 +44,7 @@ lb config noauto \
     --security true \
     --updates true \
     --debootstrap-options "--verbose --exclude=pinephone-tweaks,mobile-tweaks-common,librem5-tweaks,pinetab-tweaks" \
+    --verbose \
     "${@}"
 
 
