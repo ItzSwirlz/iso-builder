@@ -24,7 +24,7 @@ jobs:
     - name: Build ISO
       run: |
         cd /
-        git clone https://github.com/Ubuntu-Cinnamon-Remix/iso-builder
+        git clone https://github.com/ItzSwirlz/iso-builder
         cd iso-builder
         ./build.sh etc/terraform.conf
 
