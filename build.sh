@@ -33,7 +33,7 @@ ln -sfn /usr/share/debootstrap/scripts/gutsy /usr/share/debootstrap/scripts/impi
 
 # TODO: Remove once live-build is able to acommodate for cases where LB_INITRAMFS is not live-boot:
 # https://salsa.debian.org/live-team/live-build/merge_requests/31
-patch /usr/lib/live/build/binary_grub-efi < live-build-fix-shim-remove.patch
+#patch /usr/lib/live/build/binary_grub-efi < live-build-fix-shim-remove.patch
 
 build () {
   BUILD_ARCH="$1"
