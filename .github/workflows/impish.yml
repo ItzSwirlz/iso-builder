@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     container:
-      image: debian:bullseye
+      image: debian:buster
       options: --privileged -it
 
     steps:
